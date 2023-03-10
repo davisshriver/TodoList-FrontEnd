@@ -1,0 +1,121 @@
+.app{
+  display: flex;
+  flex-direction: column;
+  border: 1px solid black;
+  border-radius: 5px;
+  width: fit-content;
+  padding:10px;
+  text-align: center;
+  gap:10px;
+  align-items: stretch;
+  background-color:rgba(235, 229, 213, 0.74) ;
+}
+
+html{
+  display: flex;
+  justify-content: center;
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  font: Arial;
+}
+.form{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap:10px;
+}
+
+.todo-list{
+  padding:20px;
+  margin: 20px;
+  display: flex;
+  flex-direction: column;
+  list-style-type: none;
+  border: 1px solid black;
+  gap:10px;
+}
+.completed-list  {
+  padding:20px;
+  margin: 20px;
+  display: flex;
+  flex-direction: column;
+  list-style-type: none;
+  border: 1px solid black;
+  gap:10px;
+}
+.completed-list li{
+  font-weight: bold;
+  display: flex;
+  justify-content: space-between;
+}
+.completed-list li span{
+  margin-top: 15px;
+  flex-grow: 1;
+  text-align: center;
+}
+
+.todo-list li{
+  font-weight: bold;
+  display: flex;
+  justify-content: space-between;
+}
+.todo-list li span{
+  margin-top: 15px;
+  flex-grow: 1;
+  text-align: center;
+}
+.submit-btn {
+  height: 30px;
+  width: 75px;
+  -webkit-text-stroke-width: .2px;
+  -webkit-text-stroke-color: black;
+  font-weight: bold;
+  border-radius: 5px;
+  background-color: #ffc400;
+  color: white;
+}
+.edit-btn {
+  height: 30px;
+  width: 75px;
+  font-weight: bold;
+  border-radius: 5px;
+  background-color: blue;
+  color: white;
+  margin: 10px;
+}
+.delete-btn {
+  height: 30px;
+  width: 75px;
+  font-weight: bold;
+  border-radius: 5px;
+  background-color: red;
+  color: white;
+  margin: 10px;
+}
+.complete {
+  justify-self: right;
+  height: 30px;
+  width: 30px;
+  font-weight: bold;
+  border-radius: 5px;
+  background-color: green;
+  color: white;
+  margin: 10px;
+}
+
+.incomplete {
+  height: 30px;
+  width: 30px;
+  font-weight: bold;
+  border-radius: 5px;
+  background-color: green;
+  color: white;
+  margin: 10px;
+}
+
+.lists  {
+  display: flex;
+  padding: 20px;
+}
+
+
