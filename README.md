@@ -12,4 +12,5 @@ and custom HTTP request implementation.
 adding a todo, editing existing todos, deleting a todo, and moving todos between the "Completed Tasks" list and the "Pending Tasks" list.
 
 **Author:** Davis Shriver
+
 **Date:** 3/19/2023
